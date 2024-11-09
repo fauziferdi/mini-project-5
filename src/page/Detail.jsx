@@ -45,7 +45,7 @@ const Detail = () => {
           <img src={siswa} alt="Logo" class="img-thumbnail" />
         </div>
         <div className="col-md-8">
-          <p>
+          <p className="fs-4">
             <strong>{language === "id" ? "Nama : " : "Name : "}</strong>{" "}
             {data.name} <br />
             <strong>{language === "id" ? "NIM : " : "NIM : "} </strong>{" "}
